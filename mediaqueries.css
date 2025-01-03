@@ -6,6 +6,10 @@
   .about-containers {
     flex-wrap: wrap;
   }
+  #contact,
+  #projects {
+    height: fit-content;
+  }
 }
 
 @media screen and (max-width: 1200px) {
@@ -84,7 +88,7 @@
   }
   .section__pic-container {
     width: auto;
-    height: 46vh;
+    height: 46vw;
     justify-content: center;
   }
   .section__text__p2 {
@@ -92,8 +96,8 @@
   }
   .title {
     font-size: 2rem;
-    .text-container {
-        text-align: justify;
-    }
+  }
+  .text-container {
+    text-align: justify;
   }
 }
